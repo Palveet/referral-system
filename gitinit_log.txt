@@ -1,0 +1,9 @@
+Pushing local repo to github
+
+Steps:
+1. git init -b main
+2. git add .
+3. git commit -m 'initial commit'
+4. git remote add origin https://github.com/Palveet/referral-system (Note: this repo needs to be on github)
+5. git push --set-upstream origin master
+
