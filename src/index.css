@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.referral-form .form-group {
+  margin-bottom: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.referral-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.referral-form input[type="text"],
+.referral-form select,
+.referral-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.referral-form .radio-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.referral-form .radio-group label {
+  display: flex;
+  align-items: center;
+}
+
+.referral-form .radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.referral-form button[type="submit"] {
+  display: block;
+  width: auto;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #4b3f72;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color:#fff;
+}
+
+.referral-form button[type="submit"]:hover{
+  background-color: #2C234A!important;
+}
+.overall-font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  color: #4b3f72
 }
